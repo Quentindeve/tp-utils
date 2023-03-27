@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pandoc -H /etc/tp-render/disable_float.tex -V geometry:margin=1in $1 -o $1.pdf
+
+xdg-open $1.pdf

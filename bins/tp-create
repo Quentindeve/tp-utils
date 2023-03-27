@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+cp /etc/tp-create/template.md ./dutilleul-tp-$1.md
+echo "# TP ${1^}" >> ./dutilleul-tp-$1.md
