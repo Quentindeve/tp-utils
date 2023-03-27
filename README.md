@@ -13,3 +13,15 @@ Creates a Markdown file according to the template /etc/tp-create/markdown.md
 # About ``disable_float.tex``
 
 This file exists to disable image floating in PDF rendering because Pandoc tends to do weird things with images. I don't know if it's because of Pandoc or the PDF engine but here we go.
+
+# Dependencies
+
+Pandoc, sh
+
+# Install
+
+```sh
+chmod +x ./install.sh
+
+sudo ./install.sh
+```
