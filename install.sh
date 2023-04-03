@@ -2,4 +2,4 @@
 
 cp ./bins/tp-render ./bins/tp-create /usr/bin/
 
-cp -r assets/ /etc/
+cp -r assets/* /etc/
